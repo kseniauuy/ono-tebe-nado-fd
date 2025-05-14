@@ -417,10 +417,35 @@
   .header {
       padding: 40px 50px;
   }
-  .lots__card-list-item {
-      height: 70vh;
+  
+  .header__logo img {
+      height: 60px;
   }
+  
+  .lots__card-list-item {
+      height: 60vh;
+  }
+  
+  .cover__line-ono,
+  .cover__line-tebe,
+  .cover__line-nado {
+      font-size: 6rem;
+      letter-spacing: 20px;
+  }
+  
   .about {
+      flex-direction: column;
+      align-items: center;
       padding: 80px 20px;
+  }
+  
+  .about__logo-container {
+      margin-left: 0;
+  }
+  
+  .about__title,
+  .about__text {
+      margin-left: 0;
+      text-align: center;
   }
 }
