@@ -180,7 +180,7 @@
   font-size: 35px; /* уменьшили с 45px */
   text-transform: uppercase;
   text-align: left;
-  margin: 0 0 30px 50px; /* сдвинули слева с 30px на 50px (+20px) */
+  margin: 0 0 30px 70px; /* сдвинули слева с 30px на 50px (+20px) */
 }
 
 .lots_card-list {
@@ -195,7 +195,7 @@
 .lots_card-list-item {
   width: 334px;
   position: relative;
-  top: -15px; /* поднимаем вверх */
+  top: -10px; /* поднимаем вверх */
 }
 
 .card_image {
@@ -272,7 +272,7 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin-right: 85px;
+  margin-right: 45px;
 }
 
 .about_logo-container img {
@@ -293,7 +293,7 @@
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
-  margin: 30px 0 24px 0;
+  margin: 80px -10px 24px 0;
 }
 
 .about_text {
