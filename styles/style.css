@@ -105,7 +105,8 @@
 
 .cover_line {
   font-family: Raleway, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
+  font-style: bold;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 30px;
@@ -119,7 +120,7 @@
 
 .cover_line-ono {
   top: 155px;
-  left: 180px;
+  left: 200px;
 }
 
 .cover_line-tebe {
@@ -140,12 +141,14 @@
   color: white;
   text-align: center;
   position: absolute;
-  bottom: 6.5%;
-  left: 0; right: 340px;
+  bottom: 7.3%;     /* подняли чуть выше */
+  left: 0;
+  right: 350px;     /* сдвинули чуть левее */
   margin: 0 auto;
   word-spacing: 20px;
   white-space: nowrap;
 }
+
 
 .bet-button {
   font-family: Raleway, sans-serif;
@@ -154,8 +157,8 @@
   color: white;
   text-transform: uppercase;
   position: absolute;
-  bottom: 5%;
-  right: 40px;
+  bottom: 6%;      /* выше */
+  right: 50px;     /* левее */
   background-color: transparent;
   border: 2px solid white;
   padding: 12px 24px;
@@ -173,11 +176,11 @@
 
 .lots_heading {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 45px;
+  font-weight: 900; /* более жирный */
+  font-size: 35px; /* уменьшили с 45px */
   text-transform: uppercase;
   text-align: left;
-  margin: 0 0 30px 30px;
+  margin: 0 0 30px 50px; /* сдвинули слева с 30px на 50px (+20px) */
 }
 
 .lots_card-list {
@@ -192,6 +195,7 @@
 .lots_card-list-item {
   width: 334px;
   position: relative;
+  top: -15px; /* поднимаем вверх */
 }
 
 .card_image {
@@ -216,6 +220,7 @@
 .card_title {
   font-family: Raleway, sans-serif;
   font-weight: 700;
+  font-style: bold;
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
@@ -240,7 +245,8 @@
   text-decoration: underline;
   text-underline-offset: 4px;
   color: black;
-  margin-left: 50px;
+  margin-left: 70px; /* сдвинули вправо с 50px на 70px (+20px) */
+  margin-top: -10px; /* подняли чуть выше */
   display: inline-block;
 }
 
@@ -250,7 +256,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   height: 595px;
-  padding-top: 230px;
+  padding-top: 210px;
   margin-bottom: 210px;
   width: fit-content;
   margin-left: auto;
