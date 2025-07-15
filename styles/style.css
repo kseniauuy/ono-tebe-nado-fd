@@ -106,7 +106,6 @@
 .cover_line {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 30px;
@@ -220,7 +219,6 @@
 .card_title {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
@@ -255,12 +253,15 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 595px;
   padding-top: 210px;
   margin-bottom: 210px;
-  width: fit-content;
+  width: 100%;
+  max-width: 1280px;
   margin-left: auto;
-  margin-right: 230px;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: 170px;
+  padding-right: 20px;
 }
 
 .about_logo-container {
@@ -285,6 +286,7 @@
 .about_content {
   max-width: 740px;
   margin-top: 10px;
+  padding-left: 30px;
 }
 
 .about_title {
@@ -307,6 +309,7 @@
 .about_text_top {
   margin-top: 120px;
 }
+
 
 /* Подвал */
 .footer {
